@@ -1,0 +1,92 @@
+ /* X-Small devices (portrait phones, less than 576px) */
+ /* No media query for `xs` since this is the default in Bootstrap */
+
+ /* Small devices (landscape phones, 576px and up) */
+/* Tablet */
+.hed_pc{
+    display: none;
+}
+  
+/* Tablet and Mobile */
+ @media (max-width: 991.98px) {
+    .header{
+        max-width: 100%;
+    }
+  }
+  
+  /* Mobile */
+  @media (max-width: 575.98px) {
+
+    .container{
+        padding:0 20px;
+    }
+    .mobile_order_1{
+        order:1;
+    }
+    .mobile_order_2{
+        order:2;
+    }
+    .show_mobile{
+        display: block;
+    }
+   .navbar_left{
+    display: none;
+   }
+   .navbar_right_item{
+    display: none;
+   }
+   .btn{
+    font-size: 1.6rem;
+   }
+.navbar_mobile{
+    margin-left: auto;
+}
+.header{
+    border-bottom: 1px solid #D6D3E2;
+}
+/* hero */
+.hero{
+    margin-top: 10px;
+   
+}
+.row{
+    display: flex;
+}
+.hero_img{
+
+    width: 100%;
+}
+.hero_decor_left{
+    position: absolute;
+    width: 543.709px;
+    height: 402.145px;
+    transform: rotate(6deg);
+    flex-shrink: 0;
+    z-index: -1;
+    top: -41px;
+    left: -124px;
+}
+.hero_left{
+    position: relative;
+}
+.hero_right{
+    margin-top: 20px;
+}
+.hero_decor_right{
+    display: none;
+}
+.hero_heading {
+    width: 260px;
+    font-size: 4.2rem;
+    line-height: 50px; /* 119.048% */
+letter-spacing: -1.68px;
+}
+.hero_desc{
+    font-size: 1.6rem;
+line-height: 26px;
+}
+  .hero_link{
+    font-size: 1.6rem;
+  }
+  }
+  /* clients */
